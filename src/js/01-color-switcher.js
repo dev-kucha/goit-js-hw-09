@@ -4,7 +4,6 @@ refs.dataStop = document.querySelector('button[data-stop]');
 refs.body = document.querySelector('body');
 
 refs.dataStart.addEventListener('click', onDataStartClick);
-
 refs.dataStop.addEventListener('click', onDataStopClick);
 
 function onDataStartClick() {
