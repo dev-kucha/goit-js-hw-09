@@ -40,11 +40,11 @@ function onSelectedDate(selectedDates) {
 }
 
 function onStartButtonClick() {
-  timerID = setInterval(() => {
+  const timerId = setInterval(() => {
     const differentDate = selectedDate - new Date();
 
     if (differentDate <= 0) {
-      clearInterval(timerID);
+      clearInterval(timerId);
       return;
     }
 
