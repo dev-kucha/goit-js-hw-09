@@ -1,0 +1,2 @@
+const e={form:document.querySelector(".form"),firstDelay:document.querySelector("[name=delay]"),delayStep:document.querySelector("[name=step]"),amount:document.querySelector("[name=amount]")};function o(e,o){Math.random()>.3?console.log(`Fulfill - position: ${e}, delay: ${o}`):console.log(`Reject - position: ${e}, delay: ${o}`)}e.form.addEventListener("submit",(function(t){t.preventDefault();for(let t=1;t<=e.amount.value;t+=1)console.log(t),o(t,e.firstDelay.value)})),console.log(e);
+//# sourceMappingURL=03-promises.8537050d.js.map
