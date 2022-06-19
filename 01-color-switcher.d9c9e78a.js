@@ -1,2 +1,0 @@
-const t={};t.dataStart=document.querySelector("button[data-start]"),t.dataStop=document.querySelector("button[data-stop]"),t.body=document.querySelector("body"),t.dataStart.addEventListener("click",(function(){t.dataStart.setAttribute("disabled","disabled"),timerId=setInterval((()=>{t.body.style.backgroundColor=`#${Math.floor(16777215*Math.random()).toString(16)}`}),1e3)})),t.dataStop.addEventListener("click",(function(){clearInterval(timerId),t.dataStart.removeAttribute("disabled")}));
-//# sourceMappingURL=01-color-switcher.d9c9e78a.js.map
