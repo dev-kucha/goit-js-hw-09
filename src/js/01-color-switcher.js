@@ -6,6 +6,8 @@ refs.body = document.querySelector('body');
 refs.dataStart.addEventListener('click', onDataStartClick);
 refs.dataStop.addEventListener('click', onDataStopClick);
 
+let timerId = null;
+
 function onDataStartClick() {
   refs.dataStart.setAttribute('disabled', 'disabled');
   timerId = setInterval(() => {
